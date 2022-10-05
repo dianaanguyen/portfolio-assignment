@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: rgb(57, 57, 119);
+    background-color: white;
     color: black;    
     width: 100%;
     padding: 10px 6% 10px 0;
@@ -16,8 +16,7 @@ header {
 header .brand{
     font-size: 2.5em;
     font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(63, 30, 99);
+    color: rgb(240, 172, 207);
     background-color: white;
     padding: 5px 1% 5px 6%;
     margin: 0;
@@ -25,14 +24,19 @@ header .brand{
 
 nav ul li {
     list-style: none;
-    margin: 5px;
+    margin: 20px;
     padding: 0;
     display: inline-block;
     font-weight: bold;
 }
 
 nav ul li a{
-    color: rgb(153, 115, 242);
+    color: rgb(240, 172, 207);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li >a:hover {
     text-decoration: underline;
     font-size: 20px;
 }
@@ -47,11 +51,20 @@ nav ul li a{
 }
 
 .about-me h1{
-    margin-bottom: 20px;
-    font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(82, 40, 122);
     text-align: center;
+    margin-bottom: 20px;
+    font-size: 43px;
+    color: rgb(240, 172, 207);
+}
+
+.about-me h2 {
+    color: rgb(240, 172, 207);
+    text-align: center;
+    margin:20px;
+}
+
+span{
+    color: rgb(142, 98, 231);
 }
 
 .float-left{
@@ -60,14 +73,19 @@ nav ul li a{
 }
 
 .about-me img{
-    display: block;
+    left: 100px;
     margin: 10px auto;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 350px;
+    max-height: 350px;
 }
 
 .first-text{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
 }
+
+.projects h2{
+    color: rgb(240, 172, 207);
+}
+/*-----------projects-----*/
+
