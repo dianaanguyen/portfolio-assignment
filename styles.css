@@ -46,7 +46,7 @@ li >a:hover {
 }
 
 .hero {
-    height: 400px;
+    height: 350px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url(https://cdn.shopify.com/s/files/1/0306/6419/6141/articles/coding_languages.png?v=1619126283);
@@ -116,4 +116,26 @@ span{
 .work-list div:hover{
     background:rgb(208, 196, 227);
     transform: translateY(-10px);
+}
+/*-----contacts----*/
+
+#footer {
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(208, 196, 227);
+}
+
+#social-container {
+    padding: 6px;
+    margin-bottom: 6px;
+}
+
+#copyright {
+    font-size: 15px;
+    color: rgb(109, 56, 231);
+}
+
+#social-container a:hover {
+    color: rgb(211, 170, 228);
 }
