@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header {
     background-color: white;
     color: black;    
@@ -55,6 +59,7 @@ li >a:hover {
     margin-bottom: 20px;
     font-size: 43px;
     color: rgb(240, 172, 207);
+    display: block;
 }
 
 .about-me h2 {
@@ -67,25 +72,48 @@ span{
     color: rgb(142, 98, 231);
 }
 
-.float-left{
-    float: left;
-    margin-right: 25px;
-}
-
-.about-me img{
-    left: 100px;
-    margin: 10px auto;
-    max-width: 350px;
-    max-height: 350px;
-}
-
 .first-text{
     text-align: center;
     font-size: 20px;
 }
-
-.projects h2{
-    color: rgb(240, 172, 207);
-}
 /*-----------projects-----*/
 
+#portfolio{
+    padding: 30px 0;
+    margin: 20px;
+}
+
+.sub-title{
+    color: rgb(240, 172, 207);
+    text-align: center;
+}
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 40px;
+}
+
+.work-list h2, p {
+    text-align: center;
+}
+.work-list img{
+    display: block;
+    margin: 10px auto;
+    max-width: 365px;
+    padding: 30px;
+}
+.work-list div{
+    background: rgb(240, 172, 207);
+    margin: 15px;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.work-list div:hover{
+    background:rgb(208, 196, 227);
+    transform: translateY(-10px);
+}
