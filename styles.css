@@ -45,6 +45,8 @@ li >a:hover {
     font-size: 20px;
 }
 
+/*----main image and about me*/
+
 .hero {
     height: 350px;
     width: 100%;
@@ -107,17 +109,28 @@ span{
     text-align: center;
 }
 
-.flex-item:first-child {
-    min-height: 400px;
-    flex-basis: 100%;
-}
-
 .flex-container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 40px;
 }
+
+.flex-item{
+    border: 5px solid #d7d3e7;
+    background-color: rgb(240, 172, 207);
+    color: #e5e5e5;
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-size: 150%;
+}
+
 
 .flex-container h2, p {
     text-align: center;
