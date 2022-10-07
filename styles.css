@@ -93,7 +93,7 @@ li >a:hover {
 /*-----------projects-----*/
 
 #portfolio{
-    padding: 30px 0;
+    padding: 20px 0;
     margin: 20px;
 }
 
@@ -125,13 +125,20 @@ li >a:hover {
     color: #e5e5e5;
     min-height: 150px;
     max-height: 150px;
-    /* flex-basis: calc(50% - 1em); */
+    flex-basis: calc(50% - 1em);
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
     margin: 0.5em;
     text-decoration: none;
     background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+}
+
+.flex-item:hover {
+    border-radius: 10px;
+    border-color: rgb(211, 170, 228);
 }
 
 #refactor{
@@ -161,7 +168,8 @@ li >a:hover {
     max-width: 270px;
     padding: 30px;
 }
-.flex-container div{
+
+/* .flex-container div{
     background: rgb(240, 172, 207);
     margin: 15px;
     padding-top: 15px;
@@ -169,12 +177,12 @@ li >a:hover {
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
-}
+} */
 
-.flex-container div:hover{
+/* .flex-container div:hover{
     background:rgb(208, 196, 227);
     transform: translateY(-10px);
-}
+} */
 /*-----contacts----*/
 
 #footer {
