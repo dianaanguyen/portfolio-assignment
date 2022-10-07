@@ -228,3 +228,9 @@ li >a:hover {
     margin-bottom: 15px;
     color: rgb(109, 56, 231)
 }
+
+@media screen and (max-width: 768px) {
+    #bottom {
+        flex-direction: column;
+    }
+}
