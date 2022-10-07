@@ -25,3 +25,5 @@ The following animation shows the web application's appearance and functionality
 
 ## Portfolio
 This project was to be created with HTML and CSS. I closely followed the demo website that was given from the mock up, but edited to my liking to how I want my portfoilio to be displayed. There are a few projects are that are current placeholders for now since I only have assignment to display. They will be replaced as soon as I have more projects to display for my portfolio.
+
+Link to the deployed application: https://dianaanguyen.github.io/portfolio-assignment/
