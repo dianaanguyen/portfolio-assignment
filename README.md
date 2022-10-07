@@ -12,24 +12,12 @@ With these points in mind, in this Challenge you’ll set yourself up for future
 Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first Challenge, we follow the AS AN / I WANT / SO THAT format.
 
 ## User Story
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+
+<img width="926" alt="Screen Shot 2022-10-06 at 6 56 16 PM" src="https://user-images.githubusercontent.com/111664734/194451030-95014bac-c3a4-4de4-a48f-76b0db70839d.png">
 
 ## Acceptance Criteria
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+<img width="1003" alt="Screen Shot 2022-10-06 at 6 56 09 PM" src="https://user-images.githubusercontent.com/111664734/194451045-e0c8c558-9ac4-42f3-97e7-925d648cc509.png">
+
 
 ## Mock-Up
 
