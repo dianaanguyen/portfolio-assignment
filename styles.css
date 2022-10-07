@@ -120,9 +120,8 @@ li >a:hover {
 }
 
 .flex-item{
-    border: 5px solid #d7d3e7;
-    background-color: rgb(240, 172, 207);
-    color: #e5e5e5;
+    border: 10px solid #d7d3e7;
+    color: #ffffff;
     min-height: 150px;
     max-height: 150px;
     flex-basis: calc(50% - 1em);
@@ -130,7 +129,7 @@ li >a:hover {
     align-items: flex-end;
     padding: 0 0 20px 0;
     margin: 0.5em;
-    text-decoration: none;
+    text-decoration: underline;
     background-size: 150%;
     transition: all 0.5s;
     font-size: 0.9rem;
@@ -142,6 +141,7 @@ li >a:hover {
 }
 
 #refactor{
+    border: 10px solid #d7d3e7;
     height: 300px !important;
     background-image: url(./Screen\ Shot\ 2022-10-05\ at\ 3.49.37\ PM.png);
     background-size: cover;
@@ -169,6 +169,23 @@ li >a:hover {
     padding: 30px;
 }
 
+/*----portfolio images*/
+
+.project-1{
+    background-image: url(https://www.zdnet.com/a/img/resize/a0dcec40a8cd8d2e1b3a9e12a05c2819622d20be/2021/07/19/8a337c80-5ed6-43a1-98fb-b981d420890f/programming-languages-shutterstock-1680857539.jpg?auto=webp&fit=crop&height=1200&width=1200);
+    background-position: center;
+}
+
+.project-2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdAsLY7Z49edeNfFowS0EgFsLqSQCiUd2GbA&usqp=CAU);
+    background-position: center;
+}
+
+.project-3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0TWWQJSxMmSDiUzUCIoT_raoprTunM50ufdF-wM994KJVdsMS9_fC_7kbT5IRj4Jv-4E&usqp=CAU);
+    background-position: center;
+}
+
 /* .flex-container div{
     background: rgb(240, 172, 207);
     margin: 15px;
@@ -183,6 +200,7 @@ li >a:hover {
     background:rgb(208, 196, 227);
     transform: translateY(-10px);
 } */
+
 /*-----contacts----*/
 
 #footer {
