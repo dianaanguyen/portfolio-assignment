@@ -27,3 +27,6 @@ The following animation shows the web application's appearance and functionality
 This project was to be created with HTML and CSS. I closely followed the demo website that was given from the mock up, but edited to my liking to how I want my portfoilio to be displayed. There are a few projects are that are current placeholders for now since I only have assignment to display. They will be replaced as soon as I have more projects to display for my portfolio.
 
 Link to the deployed application: https://dianaanguyen.github.io/portfolio-assignment/
+![Screen Shot 2022-10-06 at 9 47 28 PM](https://user-images.githubusercontent.com/111664734/194469891-5ef31cae-2990-4646-ab02-51c5d54e3885.png)
+![Screen Shot 2022-10-06 at 9 47 41 PM](https://user-images.githubusercontent.com/111664734/194469897-e3ade171-0818-447e-9dff-27c4c9031092.png)
+
